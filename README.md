@@ -15,13 +15,14 @@ This project demonstrates how to analyze stock data using Python. We build visua
 * [📉 Basic Plotting](#-basic-plotting)
 * [🟦 Moving Averages (MA20 & MA50)](#-moving-averages-ma20--ma50)
 * [📊 Bollinger Bands](#-bollinger-bands)
-* [🕯️ Candlestick Chart with MA & Volume](#-candlestick-chart-with-ma--volume)
+* [🕯️ Candlestick Chart with MA & Volume](#️-candlestick-chart-with-ma--volume)
 * [📊 Price vs Volume Analysis](#-price-vs-volume-analysis)
 * [📐 Technical Indicators (RSI, MACD)](#-technical-indicators-rsi-macd)
 * [📌 Summary & Findings](#-summary--findings)
 * [🚀 Usage](#-usage)
 * [📁 Project Structure](#-project-structure)
 * [🔧 Installation](#-installation)
+* [🔮 Future Plans](#-future-plans)
 * [📜 License](#-license)
 * [👨‍💻 Author](#-author)
 
@@ -464,14 +465,62 @@ scikit-learn
 seaborn
 ```
 
+## 🔮 Future Plans
+
+Our roadmap includes two major machine learning enhancements to take this project to the next level:
+
+### 1. Backtesting ML Model
+
+We're developing a robust machine learning backtesting framework that will:
+
+- **Historical Strategy Validation**: Rigorously test trading strategies against historical data to quantify performance metrics including returns, drawdowns, Sharpe ratio, and win/loss ratios.
+- **Multiple ML Algorithm Comparison**: Implement and compare various ML models (Random Forest, LSTM, XGBoost, etc.) to identify optimal predictive algorithms for different market conditions.
+- **Feature Importance Analysis**: Determine which technical indicators and patterns have the highest predictive value to refine our trading signals.
+- **Hyperparameter Optimization**: Use grid search and Bayesian optimization techniques to fine-tune model parameters for optimal performance.
+- **Monte Carlo Simulations**: Generate probability distributions of trading outcomes to better understand risk profiles and expected returns.
+
+### 2. Real-Time Stock Prediction
+
+We're building an advanced real-time prediction system with these capabilities:
+
+- **Live Market Data Integration**: Connect to real-time market feeds to process stock price movements as they happen.
+- **Adaptive Learning Models**: Implement models that continuously learn and adapt to changing market conditions without requiring manual retraining.
+- **Sentiment Analysis Integration**: Incorporate news sentiment, social media trends, and analyst opinions as additional predictive features.
+- **Multi-timeframe Analysis**: Generate predictions across multiple timeframes (hourly, daily, weekly) to identify both short-term trading opportunities and longer-term trends.
+- **Notification System**: Create alerts for high-probability trading signals that meet predefined confidence thresholds.
+- **Uncertainty Quantification**: Provide confidence intervals and probability metrics with each prediction to better gauge reliability.
+- **Market Regime Detection**: Automatically identify the current market regime (trending, ranging, volatile) to apply the most appropriate predictive models.
+
+These enhancements will transform this project from a retrospective analytical tool into a comprehensive predictive trading system that combines traditional technical analysis with cutting-edge machine learning techniques.
+
 ## 📜 License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+MIT License
+
+Copyright (c) [2025] [Gowrishankar]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## 👨‍💻 Author
 
-Maintained by [Your Name](https://github.com/your-username).
-For questions, feel free to [open an issue](https://github.com/your-username/stock-analysis-and-report/issues).
+[Gowrishankar]  
+[developer.gshankar@gmail.com]   
 
 ---
 
